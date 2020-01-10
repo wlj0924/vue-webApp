@@ -8,8 +8,11 @@
 
 <script>
 
-
+import {fetchLogin} from '@/utils/api'
 export default {
+  mounted(){
+    fetchLogin()
+  }
 }
 </script>
 
